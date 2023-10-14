@@ -1,0 +1,61 @@
+
+body{
+    height:100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url(wallpaper.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    justify-content: center;
+    margin-left: 650px;
+    display: inline-block;
+    animation: animate 20s linear infinite;  
+}
+@keyframes animate{
+    10%{
+        background-image: url(img1.jpg);
+    }
+    20%{
+        background-image: url(img2.jpg);
+    }
+    30%{
+        background-image: url(img3.jpg);
+    }
+    40%{
+        background-image: url(img4.jpg);
+    }
+}
+.five{
+    font-size: 30px;
+    color: yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.three{
+    color:red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    display: inline-block;
+    width: 100px;
+    
+}
+.four{
+    border: 2px ridge black;
+    background-color: antiquewhite;
+    display: inline-block;
+    
+    
+}
+#four:hover{
+    background-color: black;
+}
+
+#one{
+    background-color: aqua;
+    font-size: 20px;
+    margin-right: 1200px;
+}
+#one:hover{
+    background-color: brown;
+}
